@@ -23,7 +23,7 @@ body, p, a, a:active, a:visited {
 .bgLanding {background-color: #F4F6F9;}
 .bgLightGrey { background-color: #FAFAFA; }
 .bgWhite { background-color: #FFFFFF; }
-.bgBrand { background-color: #00ADEE; }
+.bgAzure { background-color: #00ADEE; }
 
 .Grey100 { background-color: #828282; } 
 .Grey90 { background-color: #979595; }
@@ -33,7 +33,7 @@ body, p, a, a:active, a:visited {
 .Grey20 { background-color: #EEEEEE; }
 .Grey10 { background-color: #F7F7F7; }
 
-.txtBrand {color: #00ADEE; }
+.txtAzure {color: #00ADEE; }
 .txtWhite { color: #FFFFFF; } 
 .txtGrey { color: #333333; }
 .txtBody { color: #4F4F4F; }
