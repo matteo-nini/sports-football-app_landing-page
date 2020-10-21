@@ -15,19 +15,51 @@
 </head>
 
     <body>  
-        <div class="landing bgLanding">
-            <div class="logo">
-                <img src="img/svg/logo.svg" onerror="this.onerror=null; this.src='img/png/logo.png'">
+        <section class="landing bgLanding flex flex-center">
+            <div class="container flex flex-col flex-center-col-y">
+                <div class="landing__logo">
+                    <img src="img/svg/logo.svg" onerror="this.onerror=null; this.src='img/png/logo.png'">
+                </div>
+                <div class="landing__body">
+                    <h1 class="txtGrey size36 bold"> Get a personalized football <br> experience tailored just for you</h1>
+                    <p class="txtBody size18">
+                Achieve super-fan status by getting tailored updates and <br>
+                up-to-the-minute information on your team.
+                    </p>
+                </div>
+                <div class="landing__stores">
+                    <img src="img/svg/Apple-Store.svg" onerror="this.onerror=null; this.src='img/png/Apple-store.png'">
+                    <img :nth-last-child src="img/svg/Google-Play.svg" onerror="this.onerror=null; this.src='img/png/Google-Play.png'">
+                </div>
+            </div>
+        </section>
+        
+        <section class="what-it-does flex flex-end no-wrap">
+
+            <div class="container flex flex30">
+                <img src="img/svg/SAMPLE01.svg" alt="" srcset="">
+                <img src="img/svg/SAMPLE02.svg" alt="" srcset="">
             </div>
 
-            <h1 class="textGrey"> Get a personalized football <br> experience tailored just for you</h1>
-            <p class="textBody">
-                Achieve super-fan status by getting tailored updates and 
-                up-to-the-minute information on your team.
-            </p>
-            <img src="img/svg/Apple-Store.svg" onerror="this.onerror=null; this.src='img/png/Apple-store.png'">
-            <img src="img/svg/Google-Play.svg" onerror="this.onerror=null; this.src='img/png/Google-Play.png'">
-        </div>
+            <div class="container flex flex-col flex-center-col-y flex70">
+                <h3 class="uppercase txtAzure size16 bold align-left">What it does</h3>
+                <div class="what-it-does__title align-left">
+                    <h1 class="txtGrey size28 bold"> An Enhanced Football Experience</h1>
+                </div>
+                <div class="what-it-does__body">
+                    <p class="txtBody size16 align-left">
+                        The Guardian Live Scores app is your go to app for live <br> 
+                        scores and watching Premier League goals… Get in there, <br> 
+                        what a result!<br><br>
+                        As well as videos of all the goals, you can watch match <br> 
+                        highlights, check out the latest scores and results and stay <br> bang-up-to-date with the big football stories from The <br>
+                        Guardian publication. <br><br>
+                        <span class="txtAzure bold size16">Learn more</span>
+                    </p>
+                </div>
+                
+            </div>
+        </section>
     
     </body>
 
