@@ -15,38 +15,37 @@
 </head>
 
     <body>  
-        <section class="landing bgLanding flex flex-center-y">
+        <!-- LANDING HOME -->
+        <section class="landing bgLanding flex flex-col">
+            <div class="container flex flex-start-y landing__logo">
+                <img src="img/svg/logo.svg" alt="logo">
+            </div>
             <div class="container flex flex-col flex-center-x">
-                <div class="landing__logo">
-                    <img src="img/svg/logo.svg" onerror="this.onerror=null; this.src='img/png/logo.png'">
-                </div>
                 <div class="landing__body">
-                    <h1 class="txtGrey size36 bold"> Get a personalized football <br> experience tailored just for you</h1>
+                    <h1 class="txtGrey size36 bold">Get a personalized football <br> experience tailored just for you</h1>
                     <p class="txtBody size18">
-                Achieve super-fan status by getting tailored updates and <br>
-                up-to-the-minute information on your team.
+                        Achieve super-fan status by getting tailored updates and <br>
+                        up-to-the-minute information on your team.
                     </p>
                 </div>
                 <div class="landing__stores">
-                    <img src="img/svg/Apple-Store.svg" onerror="this.onerror=null; this.src='img/png/Apple-store.png'">
-                    <img :nth-last-child src="img/svg/Google-Play.svg" onerror="this.onerror=null; this.src='img/png/Google-Play.png'">
+                    <img src="img/svg/Apple-Store.svg" alt="Apple store">
+                    <img src="img/svg/Google-Play.svg" alt="Play Store">
                 </div>
             </div>
         </section>
         
+        <!-- WHAT IT DOES -->
         <section class="what-it-does flex flex-end-x no-wrap">
             <div class="container flex flex60">
-                <img src="img/svg/SAMPLE01.svg" alt="" srcset="">
-                <img src="img/svg/SAMPLE02.svg" alt="" srcset="">
+                <img src="img/svg/SAMPLE01.svg" alt="SAMPLE01">
+                <img src="img/svg/SAMPLE02.svg" alt="SAMPLE02">
             </div>
 
             <div class="container flex flex-col flex-center-x flex40">
-                <h3 class="uppercase txtAzure size16 bold align-left">What it does</h3>
-                <div class="what-it-does__title align-left">
-                    <h1 class="txtGrey size28 bold"> An Enhanced Football Experience</h1>
-                </div>
-                <div class="what-it-does__body">
-                    <p class="txtBody size16 align-left">
+                <h3 class="section__title uppercase txtAzure size16 bold">What it does</h3>
+                <h1 class="section__body__title txtGrey size28 bold"> An Enhanced Football Experience</h1>
+                <p class="section__body txtBody size16">
                         The Guardian Live Scores app is your go to app for live <br> 
                         scores and watching Premier League goals… Get in there, <br> 
                         what a result!<br><br>
@@ -54,21 +53,40 @@
                         highlights, check out the latest scores and results and stay <br> bang-up-to-date with the big football stories from The <br>
                         Guardian publication. <br><br>
                         <span class="txtAzure bold size16">Learn more</span>
-                    </p>
-                </div>
-                
+                </p>
             </div>
         </section>
 
-        <section class="get-started bgWhite">
+        <!-- GET STARTED -->
+        <section class="get-started bgWhite flex flex-start-x">
+            <div class="container flex flex-col flex-center-x flex60">
+                <h3 class="section__title uppercase txtAzure size16 bold">Get Started</h3>
+                <h1 class="section__body__title txtGrey size28 bold">User-friendly Interface</h1>
+                <p class="section__body txtBody size16">
+                        The in-game goal clips from every Premier League match are <br> 
+                        available to Guardian TV customers with a Guardian subscription.
+                        <br><br>
+                        So, if you’re not a subscriber, now’s the time to make that savvy call. <br>
+                        If that’s a step too far for you, you can still watch loads of firecracker <br> 
+                        Premier League action as long as you sign in with a free Guardian iD.
+                        <br><br>
+                        <span class="txtAzure bold size16">Learn more</span>
+                    </p>
+            </div>
+            <div class="container flex flex40">
+                    <img src="img/svg/phone.svg" alt="app preview" srcset="">
+            </div>
         </section>
 
+        <!-- FEATURES -->
         <section class="features">
         </section>
 
-        <section class="review bgWhite">
+        <!-- REVIEWS -->
+        <section class="reviews bgWhite">
         </section>
 
+        <!-- SPONSORS -->
         <section class="sponsors bgLightGrey flex flex-col flex-center-y">
             <h1 class="sponsors__title txtGrey align-center">We have been featured in</h1>
             <div class="container flex flex-row flex-center-y flex-sa">
@@ -81,33 +99,33 @@
             </div>
         </section>
         
+        <!-- GET IN TOUCH -->
         <section class="get-in-touch bgWhite flex flex-end-x">
             <div class="container flex flex-col flex-center-x">
-                <div class="get-in-touch__body">
-                    <h1 class="txtGrey size28 bold">Get Up Close With Your Team</h1>
-                    <p class="txtBody size16">
+                    <h1 class="section__body__title txtGrey size28 bold">Get Up Close With Your Team</h1>
+                    <p class="section__body txtBody size16">
                         If you’re interested in the scores of more than one team (it’s OK, we won’t <br> 
                         tell your mates you support two clubs!), you can choose the scores and <br>
                         competitions that matter to you using the ‘My Scores’ section. So, make sure <br> 
                         you’re a top-flight football fan by downloading the Football Score Centre <br>
                         now. It’s got all this:
                     </p>
-                </div>
                 <div class="get-in-touch__stores">
-                    <img src="img/svg/Apple-Store.svg" onerror="this.onerror=null; this.src='img/png/Apple-store.png'">
-                    <img :nth-last-child src="img/svg/Google-Play.svg" onerror="this.onerror=null; this.src='img/png/Google-Play.png'">
+                    <img src="img/svg/Apple-Store.svg" alt="Apple store">
+                    <img src="img/svg/Google-Play.svg" alt="Play Store">
                 </div>
             </div>
         </section>
 
+        <!-- FOOTER -->
         <footer class="footer txtWhite flex flex-center-y flex-sb txtWhite bgAzure">
             <a href="#"><img src="img/svg/logo--white.svg" alt="logo"></a>
-            <div class="footer__links">
+            <nav class="footer__links">
                 <a href="#">Download</a>
                 <a href="#">Support</a>
                 <a href="#">Developers</a>
                 <a href="#">Privacy</a>
-            </div>
+            </nav>
             <div class="footer__social">
                 <a href="#"><img src="img/svg/icons/twitter.svg" alt="twitter ico"></a>
                 <a href="#"><img src="img/svg/icons/facebook.svg" alt="facebook ico"></a>

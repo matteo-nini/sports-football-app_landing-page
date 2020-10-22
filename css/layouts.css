@@ -1,5 +1,8 @@
 @import url('style.css');
 
+.section__title, .section__body__title, .section__body { margin-bottom: 30px; }
+.section__body { line-height: 25px; }
+
 /*************************
 ****** LANDING HOME ******
 *************************/
@@ -14,15 +17,16 @@
 }
 
 .landing__logo {
-    align-self: flex-start;
     margin-top: 60px;
+    flex: 10%;
 }
 
 .landing__body {
     margin-bottom: 50px;
+    line-height: 25.92px;
 }
 
-.landing__body h1 { margin-bottom: 30px;}
+.landing__body h1 { margin-bottom: 30px; line-height: 47.50px;}
 .landing__stores img:last-child { margin-left: 35px;}
 
 /*************************
@@ -36,12 +40,6 @@
     background-image: linear-gradient(to right, rgba(237,237,237,0) 0%, rgba(243,243,243,1) 50%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%), url('../img/svg/ronaldo.svg');
     background-position: left;
     background-repeat: no-repeat;
-}
-.what-it-does__title {
-    margin-bottom: 30px;
-}
-.what-it-does__body {
-    margin: 30px 0 20px 0;
 }
 
 .what-it-does .container img {
@@ -61,10 +59,8 @@
     width: 100%;
     height: 715px;
     padding: 0 165px;
-    background-image: url('../img/svg/phone.svg');
-    background-position: right;
-    background-repeat: no-repeat;
 }
+
 /***********************
 ******* FEATURES *******
 ***********************/
@@ -86,8 +82,7 @@
     width: 100%;
     height: 430px;
     padding: 0 165px;
-    background-image: linear-gradient(to right, rgba(237,237,237,0) 0%, rgba(243,243,243,1) 50%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
-}
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 95%);}
 
 
 /*************************
@@ -117,11 +112,6 @@
     background-repeat: no-repeat;
 }
 
-.get-in-touch__body {
-    margin-bottom: 40px;
-}
-
-.get-in-touch__body h1 { margin-bottom: 35px;}
 .get-in-touch__stores img:last-child { margin-left: 35px;}
 
 /*************************

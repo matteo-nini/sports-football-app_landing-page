@@ -82,6 +82,7 @@ body, p, a, a:active, a:visited {
 
 .no-wrap {flex-wrap: nowrap;}
 
-.flex40 {width: 40%;}
-.flex60 {width: 60%;}
-.flex50 {width: 50%;}
+.flex30 { width: 30%; }
+.flex40 { width: 40%; }
+.flex60 { width: 60%; }
+.flex70 { width: 70%; }
