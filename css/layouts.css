@@ -59,8 +59,23 @@
     width: 100%;
     height: 715px;
     padding: 0 165px;
+    background: url('../img/svg/get-started-bg.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.get-started__icons {}
+
+.get-started__icons__dot {
+    width: auto;
+    height: auto;
+    position: absolute;
+    background: url('../img/svg/icons/get-started-dot.svg');
+    left: 805px;
+    top: 1769px
+    z-index: 1;
+}
 /***********************
 ******* FEATURES *******
 ***********************/
@@ -82,7 +97,8 @@
     width: 100%;
     height: 430px;
     padding: 0 165px;
-    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 95%);}
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 95%);
+}
 
 
 /*************************

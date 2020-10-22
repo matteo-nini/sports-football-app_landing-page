@@ -83,6 +83,8 @@ body, p, a, a:active, a:visited {
 .no-wrap {flex-wrap: nowrap;}
 
 .flex30 { width: 30%; }
+.flex39 { width: 39%; } /* JUST FOR CENTER GET STARTED PHONE BG */
 .flex40 { width: 40%; }
 .flex60 { width: 60%; }
+.flex61 { width: 61%; } /* JUST FOR CENTER GET STARTED PHONE BG */
 .flex70 { width: 70%; }
