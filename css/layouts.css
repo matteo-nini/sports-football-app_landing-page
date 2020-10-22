@@ -46,6 +46,7 @@
     z-index: 1;
     transform: translateY(-10%);
 }
+
 .what-it-does .container img:last-child {
     transform: translate(-70%, 100px);
     z-index: 0;
