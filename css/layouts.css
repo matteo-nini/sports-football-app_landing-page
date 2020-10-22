@@ -62,19 +62,24 @@
     background: url('../img/svg/get-started-bg.svg');
     background-position: right;
     background-repeat: no-repeat;
-    overflow: hidden;
+    z-index: 0;
 }
 
 .get-started__icons {}
 
+.get-started .container img {z-index: 1;}
+
 .get-started__icons__dot {
-    width: auto;
-    height: auto;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    background: url('../img/svg/icons/get-started-dot.svg');
-    left: 805px;
-    top: 1769px
-    z-index: 1;
+    left: 765px;
+    top: 1810px;
+    background: transparent;
+    background-image: url('../img/svg/icons/get-started-dot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
 }
 /***********************
 ******* FEATURES *******
