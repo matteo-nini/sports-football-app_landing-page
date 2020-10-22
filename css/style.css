@@ -50,6 +50,7 @@ body, p, a, a:active, a:visited {
 .bold { font-weight: 700; }
 .uppercase { text-transform: uppercase; }
 .align-left {text-align: left;}
+.align-center {text-align: center;}
 
 /********************
 ****** LAYOUTS ******
@@ -66,7 +67,7 @@ body, p, a, a:active, a:visited {
 .flex-row { flex-direction: row; }
 .flex-col { flex-direction: column; }
 .flex-center-col-y { justify-content: center; }
-.flex-center-col-y_1 { justify-content: space-between; }
+.flex-center-y_1 { justify-content: space-between; }
 .flex-center { align-items: center;}
 .flex-end {justify-content: flex-end;}
 .flex-start {justify-content: flex-start;}
