@@ -1,4 +1,5 @@
 @import url('style.css');
+
 /*************************
 ****** LANDING HOME ******
 *************************/
@@ -13,20 +14,13 @@
 }
 
 .landing__logo {
-    margin-top: 60px;
-}
-
-.logo {
     align-self: flex-start;
-    margin-top: 60px ;
+    margin-top: 60px;
 }
 
 .landing__body {
     margin-bottom: 50px;
 }
-
-/*.landing__stores {
-}*/
 
 .landing__body h1 { margin-bottom: 30px;}
 .landing__stores img:last-child { margin-left: 35px;}
@@ -47,7 +41,7 @@
     margin-bottom: 30px;
 }
 .what-it-does__body {
-    margin: 30px auto 20px auto;
+    margin: 30px 0 20px 0;
 }
 
 .what-it-does .container img {
@@ -59,6 +53,43 @@
     z-index: 0;
 }
 
+/******************************
+********* GET STARTED *********
+******************************/
+
+.get-started {
+    width: 100%;
+    height: 715px;
+    padding: 0 165px;
+    background-image: url('../img/svg/phone.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/***********************
+******* FEATURES *******
+***********************/
+
+.features {
+    width: 100%;
+    height: 735px;
+    padding: 0 165px;
+    background-image: url('../img/svg/bg-blue.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+/*************************
+********* REVIEW *********
+*************************/
+
+.reviews {
+    width: 100%;
+    height: 430px;
+    padding: 0 165px;
+    background-image: linear-gradient(to right, rgba(237,237,237,0) 0%, rgba(243,243,243,1) 50%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+}
+
+
 /*************************
 ******** SPONSOR ********
 *************************/
@@ -69,12 +100,9 @@
     padding: 50px 165px 0 165px;
 }
 
-/*.sponsors__title { margin: 5px auto;}
-
-.sponsors .container {
-    margin-top: -90px;
-}*/
-
+.sponsors .container img {
+    margin: 0 30px 0 30px;
+}
 
 /*************************
 ****** GET IN TOUCH ******
@@ -93,7 +121,7 @@
     margin-bottom: 40px;
 }
 
-.get-in-touch__body h1 { margin: 150px 0 35px 0;}
+.get-in-touch__body h1 { margin-bottom: 35px;}
 .get-in-touch__stores img:last-child { margin-left: 35px;}
 
 /*************************
@@ -104,6 +132,10 @@
     width: 100%;
     height: 130px;
     padding: 0 165px;
+}
+
+.footer a {
+    margin: 0 10px;
 }
 
 /**************************
