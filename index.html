@@ -61,9 +61,9 @@
             </div>
         </section>
 
-        <section class="sponsors bgLightGrey">
+        <section class="sponsors bgLightGrey flex flex-col flex-center-y_1 flex-center">
             <h1 class="sponsors__title txtGrey align-center">We have been featured in</h1>
-            <div class="container flex flex-center-y_1 flex-center">
+            <div class="container flex flex-row flex-center-col-y flex-center">
                 <img src="img/svg/sponsor/sportstv.svg" alt="sport tv sponsor" srcset="">
                 <img src="img/svg/sponsor/sports.svg" alt="sport sponsor" srcset="">
                 <img src="img/svg/sponsor/nbc-sports.svg" alt="nbc-sports sponsor" srcset="">
@@ -72,7 +72,40 @@
                 <img src="img/svg/sponsor/sky-sports.svg" alt="sky-sports sponsor" srcset="">
             </div>
         </section>
-    
+        
+        <section class="get-in-touch bgWhite flex flex-end">
+            <div class="container flex flex-col flex-center-col-y">
+                <div class="get-in-touch__body">
+                    <h1 class="txtGrey size36 bold">Get Up Close With Your Team</h1>
+                    <p class="txtBody size18">
+                        If you’re interested in the scores of more than one team (it’s OK, we won’t <br> 
+                        tell your mates you support two clubs!), you can choose the scores and <br>
+                        competitions that matter to you using the ‘My Scores’ section. So, make sure <br> 
+                        you’re a top-flight football fan by downloading the Football Score Centre <br>
+                        now. It’s got all this:
+                    </p>
+                </div>
+                <div class="get-in-touch__stores">
+                    <img src="img/svg/Apple-Store.svg" onerror="this.onerror=null; this.src='img/png/Apple-store.png'">
+                    <img :nth-last-child src="img/svg/Google-Play.svg" onerror="this.onerror=null; this.src='img/png/Google-Play.png'">
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer txtWhite flex flex-center flex-center-y_1 txtWhite bgAzure">
+            <a href="#"><img src="img/svg/logo.svg" style="background-color: white;" alt="logo"></a>
+            <div class="footer__links">
+                <a href="#">Download</a>
+                <a href="#">Support</a>
+                <a href="#">Developers</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="footer__social">
+                <a href="#"><img src="img/svg/icons/twitter.svg" alt="twitter ico"></a>
+                <a href="#"><img src="img/svg/icons/facebook.svg" alt="facebook ico"></a>
+                <a href="#"><img src="img/svg/icons/instagram.svg" alt="instagram ico"></a>
+            </div>
+        </footer>
     </body>
 
 </html>

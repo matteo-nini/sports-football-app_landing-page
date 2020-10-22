@@ -60,7 +60,6 @@ body, p, a, a:active, a:visited {
     width: auto;
     height: inherit;
     padding: 0;
-    border: 1px solid #00ADEE;
 }
 
 .flex { display: flex; }
