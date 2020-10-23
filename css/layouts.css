@@ -87,11 +87,15 @@
 .features {
     width: 100%;
     height: 735px;
-    padding: 0 165px;
+    padding: 60px 165px;
     background-image: url('../img/svg/bg-blue.svg');
     background-position: top left;
     background-repeat: no-repeat;
 }
+
+.features__item { width: 310px; margin: auto 150px;}
+.features__item img { margin-bottom: 10px; align-self: start; }
+.features__item p {list-style: disc inside none; display:list-item; }
 
 /*************************
 ********* REVIEW *********
