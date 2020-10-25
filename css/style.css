@@ -43,6 +43,7 @@ body, p, a, a:active, a:visited {
 ****** FONT STYLE ******
 ***********************/
 
+.size14 { font-size: 14px; }
 .size16 { font-size: 16px; }
 .size18 { font-size: 18px; }
 .size28 { font-size: 28px; }
@@ -61,7 +62,7 @@ body, p, a, a:active, a:visited {
 
 .container {
     max-width: 1440px;
-    height: inherit;
+    height: auto;
     padding: 0;
 }
 
