@@ -34,15 +34,30 @@
     background-repeat: no-repeat;
 }
 
-.what-it-does .container img {
+.match {
+    width: 360px;
+    height: 220px;
+    border-radius: 5px;
+    padding: 0px;
+    transform: translate(0%,50%);
     z-index: 1;
-    transform: translate(-20%,-15%);
+
+}
+.match__info { margin: 30px 20px auto 20px;}
+.match__info__logo img:last-child {transform: translateX(-50px); z-index: 1;}
+.match__notifications { border-radius: 0 0 5px 5px; height: 50px; margin-top: auto; padding: 15px;}
+
+.match__video {
+    width: 360px;
+    height: 220px;
+    transform: translate(-35%,130%);
 }
 
-.what-it-does .container video {
+
+/*.what-it-does .container video {
     transform: translate(-100%, 110%);
     z-index: 0;
-}
+}*/
 
 /******************************
 ********* GET STARTED *********

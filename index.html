@@ -49,9 +49,26 @@
         <!-- WHAT IT DOES -->
         <section class="what-it-does flex flex-end-x no-wrap">
             <div class="container flex flex60">
-                <img src="img/svg/match.svg" alt="SAMPLE01">
+                <!--<img src="img/svg/match.svg" alt="SAMPLE01">-->
                 <!--<img src="img/svg/video.svg" alt="SAMPLE02">-->
-                <video src="#" width="360" height="220" muted poster="img/svg/video.svg"></video>
+                <div class="match bgWhite flex flex-col flex-center-x">
+                    <div class="match__info flex flex-row flex-sb no-wrap">
+                        <div class="match__info__info">
+                            <p class="size16 txtBody bold">Sat, 12:35pm</p><br>
+                            <p class="size18 txtGrey">Arsenal v <br> Chelsea</p><br>
+                            <p class="size16 txtGrey">Friendly Match</p>
+                        </div>
+                        <div class="match__info__logos flex flex-center-y">
+                            <img src="img/svg/arsenal.svg" alt="arsenal">
+                            <img src="img/svg/chelsea.svg" alt="chelsea">
+                        </div>
+                    </div>
+                    <div class="match__notifications bgLightGrey flex flex-row flex-center-y flex-sb no-wrap">
+                        <p class="size18 txtBody">Turn on all match notifications</p>
+                        <img src="img/svg/icons/toogle.svg" alt="toogle">
+                    </div>
+                </div>
+                <video class="match__video" muted poster="img/svg/video.svg"></video>
             </div>
 
             <div class="container flex flex-col flex-center-x flex40">
