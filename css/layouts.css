@@ -11,7 +11,7 @@
     width: 100%;
     height: 100vh;
     padding: 0 165px;
-    background-image: url('../img/svg/desktop-landing.svg');
+    background-image: url('../svg/desktop-landing.svg');
     background-position: top right;
     background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@
     width: 100%;
     height: 590px;
     padding: 0 165px;
-    background-image: linear-gradient(to right, rgba(237,237,237,0) 0%, rgba(243,243,243,1) 50%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%), url('../img/svg/ronaldo.svg');
+    background-image: linear-gradient(to right, rgba(237,237,237,0) 0%, rgba(243,243,243,1) 50%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%), url('../svg/ronaldo.svg');
     background-position: left;
     background-repeat: no-repeat;
 }
@@ -67,7 +67,7 @@
     width: 100%;
     height: 715px;
     padding: 0 165px;
-    background: url('../img/svg/get-started-bg.svg');
+    background: url('../svg/get-started-bg.svg');
     background-position: right;
     background-repeat: no-repeat;
     z-index: 0;
@@ -82,7 +82,7 @@
     left: 765px;
     top: 1810px;
     background: transparent;
-    background-image: url('../img/svg/icons/get-started-dot.svg');
+    background-image: url('../svg/icons/get-started-dot.svg');
     background-position: center;
     background-repeat: no-repeat;
     z-index: 2;
@@ -95,7 +95,7 @@
     width: 100%;
     height: 735px;
     padding: 60px 165px;
-    background-image: url('../img/svg/bg-blue.svg');
+    background-image: url('../svg/bg-blue.svg');
     background-position: top left;
     background-repeat: no-repeat;
 }
@@ -142,14 +142,10 @@
 .reviews__box__body { margin-bottom: auto; line-height: 20px; }
 
 .arrow { width: 50px; height: 50px; position: absolute; top:2950px; border-radius: 50px; border: 1px solid #00adee; z-index: 3;}
-.arrow--left { left: 150px; background: #FFFFFF url(../img/svg/icons/left-arrow.svg) no-repeat center;}
-.arrow--right { right: 150px; background: #FFFFFF url(../img/svg/icons/right-arrow.svg) no-repeat center;}
+.arrow--left { left: 150px; background: #FFFFFF url('../svg/icons/left-arrow.svg') no-repeat center;}
+.arrow--right { right: 150px; background: #FFFFFF url('../svg/icons/right-arrow.svg') no-repeat center;}
 
 .reviews__dot { width: 10px; height: 10px; border: 0; border-radius: 10px; margin: 50px 5px 0 5px; }
-
-
-/*.reviews__box .container img:first-child { float: left;}
-.reviews__box .container img:last-child { float: right;}*/
 
 /*************************
 ******** SPONSOR ********
@@ -173,7 +169,7 @@
     width: 100%;
     height: 480px;
     padding: 0 165px;
-    background-image: url('../img/svg/footer-frame.svg');
+    background-image: url('../svg/footer-frame.svg');
     background-position: left;
     background-repeat: no-repeat;
 }
