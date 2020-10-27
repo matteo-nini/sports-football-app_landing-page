@@ -125,13 +125,16 @@
     border: 1px solid #828282;
     border-radius: 5px;
     padding: 10px;
-    margin: auto 10px;
+    margin: 0 1%;
     flex-wrap: nowrap;
     overflow: hidden;
     z-index: 0;
 }
 
-.reviews__box .container:first-child { margin-bottom: auto; margin-top: 10px;}
+.reviews__box:first-child {position: relative; left: -20px; margin: 0;}
+.reviews__box:last-child {position: relative; right: -20px; margin: 0;}
+
+.reviews__box .container:first-child { margin-bottom: auto; margin-bottom: 10px;}
 .reviews__box__profile span { margin-left: 10px; }
 .reviews__box__body { margin-bottom: auto; line-height: 20px; }
 
