@@ -3,12 +3,6 @@
 .section__title, .section__body__title, .section__body { margin-bottom: 30px; }
 .section__body { line-height: 25px; }
 
-@media (max-width: 767.98px) { 
-
-    .section__title, .section__body__title, .section__body { margin-bottom: 30px; }
-    .section__body { line-height: auto; }
-}
-
 /*************************
 ****** LANDING HOME ******
 *************************/
@@ -27,11 +21,6 @@
 .landing .container:last-child {flex: 90%;}
 .landing .container h1 { line-height: 47.50px;}
 .landing__stores img:last-child { margin-left: 35px;}
-
-
-@media (max-width: 767.98px) { 
-    .landing { padding: 0 20px; height: 500px; background-image: none; text-align: center; align-items: center; justify-content: center;}  
-}
 
 /*************************
 ****** WHAT IT DOES ******
@@ -86,23 +75,6 @@
     left: 100px;
     box-shadow: 4px 4px 15px 0px rgba(50, 50, 50, 0.5);
     border: 0;
-}
-
-@media (max-width: 767.98px) { 
-    .what-it-does { 
-        margin-top: 500px;
-        padding: 0;
-        background: linear-gradient(to top, rgba(237,237,237,0) 0%, rgba(243,243,243,1) 50%, rgba(255,255,255,1) 100%);
-        background-image: url('../img/jpg-png/ronaldo.jpg');
-        background-position: bottom;
-        background-repeat: no-repeat;
-        text-align: center; 
-        align-items: center; 
-        justify-content: center;
-        flex-direction: column-reverse;
-    }  
-    .match { width: auto; height: auto;}
-    .match__video { position: relative; top: 0; left: 0;}
 }
 
 /******************************
@@ -171,6 +143,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /***********************
 ******* FEATURES *******
 ***********************/
@@ -283,8 +256,67 @@
 ****** MEDIA QUERIES ******
 **************************/
 
-@media screen and (max-width: 480px) {
-    .landing {
-        background-image: none;
+@media (max-width: 767.98px) { 
+    
+    .landing { 
+        padding: 0 20px; 
+        height: 500px; 
+        margin-bottom: 20px; 
+        background-image: none; 
+        text-align: center; 
+        align-items: center; 
+        justify-content: center;
+    }  
+
+    .what-it-does { 
+        margin-top: 250px;
+        height: 820px;
+        padding: 0;
+        background-image: url('../img/jpg-png/ronaldo.jpg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        text-align: center; 
+        align-items: center; 
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex: 1 1 auto;
+    }  
+    .match { width: auto; height: auto; background: none;}
+    .match__video { position: relative; top: 0; left: 0;}
+
+    .get-started {
+        margin-top: 820px;
+        padding: 0 20px;
+        text-align: center; 
+        align-items: center; 
+        justify-content: center;
+        flex-direction: column;
     }
+
+    .features {
+        margin-top: 820px;
+        height: 1000px;
+        padding: 0 20px;
+        text-align: center; 
+        align-items: center; 
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .reviews {
+        text-align: center;
+    }
+
+    .sponsors {
+        text-align: center;
+    }
+
+    .get-in-touch {
+        text-align: center;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
 }
