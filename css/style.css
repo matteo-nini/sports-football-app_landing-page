@@ -63,7 +63,6 @@ body, p, a, a:active, a:visited {
 .container {
     max-width: 1440px;
     padding: 0;
-    border: 1px solid #00ADEE;
 }
 
 .flex { display: flex; }

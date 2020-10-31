@@ -85,16 +85,15 @@
     width: 100%;
     height: 715px;
     padding: 0 165px;
-    background: url('../img/svg/get-started-bg.svg');
+    background-image: url('../img/svg/get-started-bg.svg');
     background-position: right;
     background-repeat: no-repeat;
     z-index: 0;
 }
 
-.get-started .container:first-child { flex: 50%; background: linear-gradient(to right, rgba(237,237,237,0.1) 0%, rgba(243,243,243,1) 50%, rgba(255,255,255,0.3) 100%);}
-
-
-.get-started .container img {z-index: 1;}
+.get-started .container:first-child { background: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.3) 100%); }
+.get-started .container:last-child { flex: 30%; }
+.get-started .container:last-child img {z-index: 1;position: relative;left: 60px;}
 
 .get-started__icon {
     width: auto;
@@ -277,15 +276,26 @@
         margin: 70px 0;
         width: auto;
         height: 820px;
-        padding: 0 20px;
+        padding: 0;
         background: none;
         text-align: center; 
         align-items: center; 
         justify-content: center;
         flex-direction: column-reverse;
     }  
-    .match { width: auto; height: auto; background:linear-gradient(to right, rgba(237,237,237,0.1) 0%, rgba(243,243,243,1) 50%, rgba(255,255,255,0.3) 100%), url('../img/jpg-png/ronaldo.jpg') bottom no-repeat;}
-    .match__video { position: relative; top: 0; left: 0;}
+
+    .what-it-does .container { padding: 0 20px;}
+
+    .match { 
+        width: 100%; 
+        height: auto; 
+        padding: 30px 20px 0 20px;
+        background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%), url('../img/jpg-png/ronaldo.jpg');
+        background-position: center;
+        background-size: cover; 
+    }
+    .match__panel {width: 300px; height: 200px;}
+    .match__video { width:300px; height: 200px; position: relative; top: -50px; left: 20px; box-shadow: 0;}
 
     .get-started {
         margin-top: 270px;
@@ -294,16 +304,27 @@
         align-items: center; 
         justify-content: center;
         flex-direction: column;
+        background: none;
     }
 
-    .get-started .container:last-child { flex-direction: column; justify-content: center; align-items: center;}
+    .get-started .container:last-child { 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        background: url('../img/svg/get-started-bg.svg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .get-started .container:last-child img {z-index: 1;position: relative;left: -15px;}
     .get-started__icon { left: 0; top: 1900px;}
     .get-started__icon--dot { display: none; }
     .get-started__icon--notification { left: 20px; }
-    .get-started__icon--screen { top: 400px; left: 260px; background-image: url('../img/svg/icons/get-started-icons/screen.svg');}
+    .get-started__icon--screen { top: 370px; left: 260px; background-image: url('../img/svg/icons/get-started-icons/shop.svg');}
 
     .features {
-        margin-top: 170px;
+        margin-top: 200px;
         height: auto;
         padding: 20px;
         text-align: center; 
@@ -313,7 +334,10 @@
         flex-wrap: wrap;
         background-image: none;
         background: #FAFAFA;
+        
     }
+
+    .features .section__body__title {color: #4F4F4F;}
     .features .container { flex-wrap: wrap; }
     .features__item { width: fit-content; margin: 20px 0px;}
     .features__item img { margin-bottom: 10px; align-self: center; filter: invert(24%) sepia(46%) saturate(6451%) hue-rotate(163deg) brightness(99%) contrast(101%);}
@@ -325,17 +349,20 @@
         margin-bottom: 0;
     }
 
-    .reviews__gradient { position: relative;}
-    .arrow { position: relative;}
+    .no-disp { display: none; }
+    .reviews__gradient { display: none;}
+    .arrow { position: relative; z-index: 1; left: 155px; top: -105px;}
     .arrow--left { display: none;}
+    .reviews .container:last-child {margin-top: -70px;}
 
     .sponsors {
         padding: 0 20px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .sponsors .container { flex-wrap: wrap; }
-    .sponsors .container img { margin: 0 10px; }
+    .sponsors .container img { margin: 10px 10px; }
 
     .get-in-touch {
         padding: 0 20px;
@@ -343,6 +370,7 @@
         text-align: center;
         flex-direction: column;
         background-position: bottom;
+        justify-content: flex-start;
     }
     
     .footer {
