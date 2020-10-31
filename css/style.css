@@ -62,8 +62,8 @@ body, p, a, a:active, a:visited {
 
 .container {
     max-width: 1440px;
-    height: auto;
     padding: 0;
+    border: 1px solid #00ADEE;
 }
 
 .flex { display: flex; }
@@ -77,7 +77,7 @@ body, p, a, a:active, a:visited {
 .flex-sb { justify-content: space-between; }
 .flex-sa { justify-content: space-around; }
 
-.flex-center-y { align-items: center;}
+.flex-center-y { align-items: center; }
 .flex-start-y { align-items: flex-start; }
 .flex-end-y { align-items: flex-end; }
 
