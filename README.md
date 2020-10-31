@@ -9,4 +9,4 @@
 For this project i've used *HTML5* and *CSS3*!
 
 ### Deploy Link
-[Sports - Football mobile application](sports-football-app.netlify.app "Link to Sports!")
+[Sports - Football mobile application](http://sports-football-app.netlify.app "Link to Sports!")
