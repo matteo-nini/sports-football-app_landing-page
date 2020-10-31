@@ -1,5 +1,12 @@
 # SPORTS
 
 ### Description
-Sports it's a mobile application for Football matches! 
-Here is the hypothetical landing page website of the final product!
+**Sports** it's a mobile application for Football matches! <br/>
+*Here is the hypothetical landing page website of the final product!*
+<br/><br/>
+
+### Build With
+For this project i've used *HTML5* and *CSS3*!
+
+### Deploy Link
+[Sports - Football mobile application](http://test.com/ "Link to website")
