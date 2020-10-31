@@ -382,6 +382,6 @@
     }
     .footer a { margin: 0 5px; }
     .footer__social {order: 1; }
-    .footer__links { order: 2; align-content: center;}
+    .footer__links { order: 2; justify-content: space-evenly;}
     
 }
